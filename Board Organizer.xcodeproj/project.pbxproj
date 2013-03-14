@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2F40AC16F17BAD00D0CDBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2F40AB16F17BAD00D0CDBB /* UIKit.framework */; };
+		FA2F40AE16F17BAD00D0CDBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2F40AD16F17BAD00D0CDBB /* Foundation.framework */; };
+		FA2F40B016F17BAD00D0CDBB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2F40AF16F17BAD00D0CDBB /* CoreGraphics.framework */; };
+		FA2F40B616F17BAD00D0CDBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA2F40B416F17BAD00D0CDBB /* InfoPlist.strings */; };
+		FA2F40B816F17BAD00D0CDBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2F40B716F17BAD00D0CDBB /* main.m */; };
+		FA2F40BC16F17BAD00D0CDBB /* Board_OrganizerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2F40BB16F17BAD00D0CDBB /* Board_OrganizerAppDelegate.m */; };
+		FA2F40BE16F17BAD00D0CDBB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2F40BD16F17BAD00D0CDBB /* Default.png */; };
+		FA2F40C016F17BAD00D0CDBB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2F40BF16F17BAD00D0CDBB /* Default@2x.png */; };
+		FA2F40C216F17BAD00D0CDBB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2F40C116F17BAD00D0CDBB /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA2F40A716F17BAD00D0CDBB /* Board Organizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Board Organizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2F40AB16F17BAD00D0CDBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA2F40AD16F17BAD00D0CDBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA2F40AF16F17BAD00D0CDBB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA2F40B316F17BAD00D0CDBB /* Board Organizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Board Organizer-Info.plist"; sourceTree = "<group>"; };
+		FA2F40B516F17BAD00D0CDBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA2F40B716F17BAD00D0CDBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA2F40B916F17BAD00D0CDBB /* Board Organizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Board Organizer-Prefix.pch"; sourceTree = "<group>"; };
+		FA2F40BA16F17BAD00D0CDBB /* Board_OrganizerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Board_OrganizerAppDelegate.h; sourceTree = "<group>"; };
+		FA2F40BB16F17BAD00D0CDBB /* Board_OrganizerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Board_OrganizerAppDelegate.m; sourceTree = "<group>"; };
+		FA2F40BD16F17BAD00D0CDBB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FA2F40BF16F17BAD00D0CDBB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FA2F40C116F17BAD00D0CDBB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2F40A416F17BAD00D0CDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F40AC16F17BAD00D0CDBB /* UIKit.framework in Frameworks */,
+				FA2F40AE16F17BAD00D0CDBB /* Foundation.framework in Frameworks */,
+				FA2F40B016F17BAD00D0CDBB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2F409C16F17BAD00D0CDBB = {
+			isa = PBXGroup;
+			children = (
+				FA2F40B116F17BAD00D0CDBB /* Board Organizer */,
+				FA2F40AA16F17BAD00D0CDBB /* Frameworks */,
+				FA2F40A816F17BAD00D0CDBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2F40A816F17BAD00D0CDBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F40A716F17BAD00D0CDBB /* Board Organizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2F40AA16F17BAD00D0CDBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F40AB16F17BAD00D0CDBB /* UIKit.framework */,
+				FA2F40AD16F17BAD00D0CDBB /* Foundation.framework */,
+				FA2F40AF16F17BAD00D0CDBB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA2F40B116F17BAD00D0CDBB /* Board Organizer */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F40BA16F17BAD00D0CDBB /* Board_OrganizerAppDelegate.h */,
+				FA2F40BB16F17BAD00D0CDBB /* Board_OrganizerAppDelegate.m */,
+				FA2F40B216F17BAD00D0CDBB /* Supporting Files */,
+			);
+			path = "Board Organizer";
+			sourceTree = "<group>";
+		};
+		FA2F40B216F17BAD00D0CDBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F40B316F17BAD00D0CDBB /* Board Organizer-Info.plist */,
+				FA2F40B416F17BAD00D0CDBB /* InfoPlist.strings */,
+				FA2F40B716F17BAD00D0CDBB /* main.m */,
+				FA2F40B916F17BAD00D0CDBB /* Board Organizer-Prefix.pch */,
+				FA2F40BD16F17BAD00D0CDBB /* Default.png */,
+				FA2F40BF16F17BAD00D0CDBB /* Default@2x.png */,
+				FA2F40C116F17BAD00D0CDBB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2F40A616F17BAD00D0CDBB /* Board Organizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2F40C516F17BAD00D0CDBB /* Build configuration list for PBXNativeTarget "Board Organizer" */;
+			buildPhases = (
+				FA2F40A316F17BAD00D0CDBB /* Sources */,
+				FA2F40A416F17BAD00D0CDBB /* Frameworks */,
+				FA2F40A516F17BAD00D0CDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Board Organizer";
+			productName = "Board Organizer";
+			productReference = FA2F40A716F17BAD00D0CDBB /* Board Organizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2F409E16F17BAD00D0CDBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "Board Organizer";
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Alex;
+			};
+			buildConfigurationList = FA2F40A116F17BAD00D0CDBB /* Build configuration list for PBXProject "Board Organizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA2F409C16F17BAD00D0CDBB;
+			productRefGroup = FA2F40A816F17BAD00D0CDBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2F40A616F17BAD00D0CDBB /* Board Organizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2F40A516F17BAD00D0CDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F40B616F17BAD00D0CDBB /* InfoPlist.strings in Resources */,
+				FA2F40BE16F17BAD00D0CDBB /* Default.png in Resources */,
+				FA2F40C016F17BAD00D0CDBB /* Default@2x.png in Resources */,
+				FA2F40C216F17BAD00D0CDBB /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2F40A316F17BAD00D0CDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F40B816F17BAD00D0CDBB /* main.m in Sources */,
+				FA2F40BC16F17BAD00D0CDBB /* Board_OrganizerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA2F40B416F17BAD00D0CDBB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2F40B516F17BAD00D0CDBB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2F40C316F17BAD00D0CDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA2F40C416F17BAD00D0CDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2F40C616F17BAD00D0CDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Board Organizer/Board Organizer-Prefix.pch";
+				INFOPLIST_FILE = "Board Organizer/Board Organizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA2F40C716F17BAD00D0CDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Board Organizer/Board Organizer-Prefix.pch";
+				INFOPLIST_FILE = "Board Organizer/Board Organizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2F40A116F17BAD00D0CDBB /* Build configuration list for PBXProject "Board Organizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2F40C316F17BAD00D0CDBB /* Debug */,
+				FA2F40C416F17BAD00D0CDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2F40C516F17BAD00D0CDBB /* Build configuration list for PBXNativeTarget "Board Organizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2F40C616F17BAD00D0CDBB /* Debug */,
+				FA2F40C716F17BAD00D0CDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2F409E16F17BAD00D0CDBB /* Project object */;
+}
