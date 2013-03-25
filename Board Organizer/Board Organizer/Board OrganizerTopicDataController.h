@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Topic.h"
+@interface Board_OrganizerTopicDataController : NSObject//The Class Object
 
-@interface Board_OrganizerTopicDataController : NSObject
-
-@property(nonatomic, copy) NSString *topicName;
-
+@property(nonatomic, copy) NSString *className;
 @property(nonatomic, copy) NSMutableArray *topicList;
+
+-(NSUInteger)countOfList;
+-(Topic *)objectInListAtIndex:(NSUInteger)index;
+-(void)addTopicWithTopic:(Topic *)topic;
 
 @end

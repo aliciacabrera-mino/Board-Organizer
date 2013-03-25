@@ -11,4 +11,19 @@
 @implementation Topic
 
 
+-(id) initWithName:(NSString *)name Date:(NSDate *)date Image:(UIImage *)image
+{
+    self = [super init];
+    if(self)
+    {
+        _topicName = name;
+        _date = date;
+        _image = image;
+        return self;
+    }
+    return nil;
+}
+
+@synthesize additionalNotes;
+
 @end

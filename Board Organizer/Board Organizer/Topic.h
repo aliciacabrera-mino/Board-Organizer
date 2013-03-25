@@ -11,11 +11,10 @@
 @interface Topic : NSObject
 
 @property (nonatomic, copy) NSString *topicName;
-
 @property (nonatomic) NSDate *date;
-
 @property (nonatomic, copy) UIImage *image;
-
 @property (nonatomic, copy) NSString *additionalNotes;
+
+-(id)initWithName:(NSString *)name Date:(NSDate *)date Image:(UIImage *)image;
 
 @end

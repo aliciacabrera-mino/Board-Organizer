@@ -8,5 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class Board_OrganizerClassDataController;
+
+@interface Board_OrganizerMasterViewController : UITableViewController
+
+@property (strong, nonatomic) Board_OrganizerClassDataController *dataController;
 
 @end

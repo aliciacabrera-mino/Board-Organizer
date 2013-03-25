@@ -10,4 +10,19 @@
 
 @implementation Board_OrganizerTopicDataController
 
+-(NSUInteger)countOfList
+{
+    return [self.topicList count];
+}
+
+-(Topic *)objectInListAtIndex:(NSUInteger)index
+{
+    return [self.topicList objectAtIndex:index];
+}
+
+-(void)addTopicWithTopic:(Topic *)topic
+{
+    [self.topicList addObject:topic];
+}
+
 @end

@@ -22,6 +22,7 @@
 		FA2F410916F36E9100D0CDBB /* Board OrganizerClassDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2F410816F36E9100D0CDBB /* Board OrganizerClassDataController.m */; };
 		FA2F410C16F36F0F00D0CDBB /* Board OrganizerTopicDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2F410B16F36F0F00D0CDBB /* Board OrganizerTopicDataController.m */; };
 		FA6EE00F16F60D5A00F99FBD /* Topic.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6EE00E16F60D5A00F99FBD /* Topic.m */; };
+		FA6EE01316F6389300F99FBD /* Board_OrganizerAddTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6EE01216F6389200F99FBD /* Board_OrganizerAddTopicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		FA2F410B16F36F0F00D0CDBB /* Board OrganizerTopicDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Board OrganizerTopicDataController.m"; sourceTree = "<group>"; };
 		FA6EE00D16F60D5A00F99FBD /* Topic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topic.h; sourceTree = "<group>"; };
 		FA6EE00E16F60D5A00F99FBD /* Topic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topic.m; sourceTree = "<group>"; };
+		FA6EE01116F6389200F99FBD /* Board_OrganizerAddTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board_OrganizerAddTopicViewController.h; sourceTree = "<group>"; };
+		FA6EE01216F6389200F99FBD /* Board_OrganizerAddTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board_OrganizerAddTopicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 				FA2F410B16F36F0F00D0CDBB /* Board OrganizerTopicDataController.m */,
 				FA2F410716F36E9100D0CDBB /* Board OrganizerClassDataController.h */,
 				FA2F410816F36E9100D0CDBB /* Board OrganizerClassDataController.m */,
+				FA6EE01116F6389200F99FBD /* Board_OrganizerAddTopicViewController.h */,
+				FA6EE01216F6389200F99FBD /* Board_OrganizerAddTopicViewController.m */,
 				FA2F40F816F2D8EC00D0CDBB /* Board_OrganizerMasterViewController.h */,
 				FA2F40F916F2D8ED00D0CDBB /* Board_OrganizerMasterViewController.m */,
 				FA2F40FB16F2D8ED00D0CDBB /* Board_OrganizerDetailViewController.h */,
@@ -201,6 +206,7 @@
 				FA2F410916F36E9100D0CDBB /* Board OrganizerClassDataController.m in Sources */,
 				FA2F410C16F36F0F00D0CDBB /* Board OrganizerTopicDataController.m in Sources */,
 				FA6EE00F16F60D5A00F99FBD /* Topic.m in Sources */,
+				FA6EE01316F6389300F99FBD /* Board_OrganizerAddTopicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

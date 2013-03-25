@@ -12,13 +12,10 @@
 
 @interface Board_OrganizerClassDataController : NSObject
 
-@property (nonatomic, copy) NSString *className;
-@property (nonatomic, copy) NSMutableArray *topicList;
+@property (nonatomic, copy) NSMutableArray *classList;
 
--(NSUInteger) countOfTopicList;
-
--(Board_OrganizerTopicDataController *) objectInTopicListAtIndex:(NSUInteger)index;
-
--(void) addClassWithName;
+-(NSUInteger) countOfClassList;
+-(Board_OrganizerTopicDataController *) objectInClassListAtIndex:(NSUInteger)index;
+-(void) addClassWithClass:(Board_OrganizerTopicDataController*)Class;
 
 @end
